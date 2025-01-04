@@ -1,0 +1,144 @@
+/* General Styles */
+
+
+/* Header Section */
+.header {
+    background: url('header-bg.jpg') no-repeat center center/cover; /* Replace 'header-bg.jpg' with your actual image file */
+    color: rgb(32, 28, 28);
+    text-align: center;
+    padding: 40px 12px;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-style: inherit;
+}
+
+.header p {
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+/* Navigation */
+.nav-links {
+    list-style:NONE;
+    
+    padding: 50;
+    display: flex;
+    justify-content: center;
+    background: #ff6347; /* Tomato color */
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+}
+
+.nav-links a:hover {
+    background: white;
+    height: auto;
+    color: #ff6347;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff; /* White background */
+    border-bottom: 1px solid #ddd;
+    font-style: unset;
+    font-size: 1.5rem;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 20px;
+    background: #ffe4c4; /* Bisque color for a warm feel */
+    
+}
+
+.menu h2 {
+    color: #ff6347;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+
+.menu-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-size: 1.5rem;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Order Section */
+.order {
+    padding: 50px 20px;
+    text-align: center;
+    background: #ff6347;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.order button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: white;
+    color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order button:hover {
+    background: #ffe4c4;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
